@@ -39,7 +39,7 @@ https://user-images.githubusercontent.com/82647748/150115955-503785ab-1977-41bc-
 - [What is the XRMOD SDK?](#xr-mod)
 - [Enhance your world and applications](#enhance-your-world-and-applications)
 - [Showcase](#showcase)
-- [XR-MOD Open Source Projects](#ar-mod-open-source-projects)
+- [XR-MOD Open Source Projects](#xr-mod-open-source-projects)
 - [Main features of XRMOD](#main-features-of-xrmod)
 
 
