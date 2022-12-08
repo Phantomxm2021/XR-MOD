@@ -1,0 +1,17 @@
+{
+    "name": "ILRuntime.Runtime.CLRBingding.CLR.System",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d1b7af04124239145bc1904ef0c73501",
+        "GUID:fb044e467877d42df875ffad27576788"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

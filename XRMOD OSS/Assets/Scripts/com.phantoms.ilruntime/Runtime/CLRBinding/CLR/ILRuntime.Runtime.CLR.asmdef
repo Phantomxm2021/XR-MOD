@@ -1,0 +1,22 @@
+{
+    "name": "ILRuntime.Runtime.CLR",
+    "rootNamespace": "",
+    "references": [
+        "GUID:510d09d997aaf4cf5b933d936297fafe",
+        "GUID:0fb898f14fd4541dcafe5ad3c89b2003",
+        "GUID:bd6e762adf35a4cd0a984278aa64fd25",
+        "GUID:47839054f13e745f7a2f940dbffc7819",
+        "GUID:d956b504c8a7fa84aa3f0cf5ad3bdbe7",
+        "GUID:d1b7af04124239145bc1904ef0c73501",
+        "GUID:d445613d091ffc941ae68355f01656f6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

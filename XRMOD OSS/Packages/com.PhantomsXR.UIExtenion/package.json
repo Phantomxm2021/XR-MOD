@@ -1,0 +1,12 @@
+{
+  "name": "com.phantomsxr.uiextenion",
+  "version": "1.0.0",
+  "displayName": "XRMOD UI Extension",
+  "unity": "2020.3",
+  "author": {
+    "name": "Phantoms",
+    "email": "phantomxm2021@gmail.com"
+  },
+  "type": "library",
+  "license": "Apache License"
+}

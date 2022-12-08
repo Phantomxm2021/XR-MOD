@@ -1,0 +1,22 @@
+{
+    "name": "ILRuntime.Adapter.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d1b7af04124239145bc1904ef0c73501",
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:9a1e58d5a8c68d04bb4a478d18fc2a16",
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:28c5e819ece8a0746abb16dc5aa91f44",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

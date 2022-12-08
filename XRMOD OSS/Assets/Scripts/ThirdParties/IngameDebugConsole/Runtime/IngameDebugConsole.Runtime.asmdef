@@ -1,0 +1,16 @@
+{
+    "name": "IngameDebugConsole.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:22d52832f90ec45c3944038096e92549"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

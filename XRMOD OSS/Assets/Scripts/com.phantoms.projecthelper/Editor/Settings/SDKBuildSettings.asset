@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b683ba140ce4a87b483e1098fffc6e0, type: 3}
+  m_Name: SDKBuildSettings
+  m_EditorClassIdentifier: 
+  ExportPath: /Users/nswell/Documents/PhantomsXR/Projects/ARMODs/Unity/ARMOD-SDK/ARMOD-SDK/Builds/iOSSDK
+  XrmodEngineSettings: {fileID: 11400000, guid: 0147e72e4c9ce44d79e1f461f8f9f1d0, type: 2}
+  License: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiTlNXZWxsXHU3Njg0TWFjQm9vayBQcm8iLCJleHBpcmF0aW9uX3RpbWUiOjE2NTc3MTE0NDY2ODB9.zLbV1Uqd7ZAmH4Bo3moNOhyHqAW7BusA5urCrnx-d9M

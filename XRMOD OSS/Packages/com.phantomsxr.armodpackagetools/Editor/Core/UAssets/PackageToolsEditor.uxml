@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <com.Phantoms.ARMODPackageTools.Core.SplitView fixed-pane-initial-dimension="350">
+        <ui:VisualElement name="left-panel" style="flex-grow: 1; flex-shrink: 1;">
+            <com.Phantoms.ARMODPackageTools.Core.ProjectView />
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="flex-grow: 1; flex-shrink: 1;">
+            <ui:VisualElement name="NoEditingView" style="flex-grow: 1; align-items: center; justify-content: center;">
+                <ui:Label text="You currently have no project being edited." display-tooltip-when-elided="true" focusable="false" name="NoEditingLabel" style="-unity-text-align: middle-center; justify-content: center; align-items: center; -unity-font-style: bold; font-size: 14px; white-space: normal; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; opacity: 1; visibility: visible; overflow: hidden; flex-grow: 0; flex-shrink: 1; flex-wrap: wrap; flex-direction: column;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="EditingView" style="flex-grow: 1; display: none;">
+                <uie:Toolbar name="toolbar" style="height: 28px;">
+                    <uie:ToolbarSpacer />
+                    <uie:ToolbarToggle label="Properties" name="properties" value="true" class="toolbar-button-item" style="-unity-text-align: middle-center;" />
+                    <uie:ToolbarToggle label="Contents" name="contents" class="toolbar-button-item" style="-unity-text-align: middle-center; flex-shrink: 0; width: initial; display: flex;" />
+                    <uie:ToolbarToggle label="Build" name="build" class="toolbar-button-item" style="-unity-text-align: middle-center; flex-shrink: 1; width: initial;" />
+                </uie:Toolbar>
+                <ui:VisualElement name="view" style="flex-grow: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </com.Phantoms.ARMODPackageTools.Core.SplitView>
+</ui:UXML>

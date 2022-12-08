@@ -1,0 +1,22 @@
+{
+  "name": "com.phantomsxr.armodrenderingassistant",
+  "version": "1.0.1",
+  "displayName": "XRMOD Rendering Assistant",
+  "description": "Rendering Assistant is an extension tool for Unity rendering of ARMOD.",
+  "unity": "2020.3",
+  "keywords": [
+    "build",
+    "bundle",
+    "bundles",
+    "assetbundles",
+    "cache",
+    "server",
+    "artoolkit"
+  ],
+  "author": {
+    "name": "Phantoms",
+    "email": "phantomxm2021@gmail.com"
+  },
+  "type": "tool",
+  "license": "Apache License"
+}

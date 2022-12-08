@@ -1,0 +1,28 @@
+{
+    "name": "ILRuntime.Runtime.CLRBingding.CLR.Phantoms",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:8e4b22805b128544c875816e5bb32c91",
+        "GUID:b9506b116f49944d0a10fd66d7ee4b93",
+        "GUID:f472ae737a280fe4cbdf5b14dbbf9fcc",
+        "GUID:67c68cde47b78440ca353be6f999c450",
+        "GUID:5c2b5ba89f9e74e418232e154bc5cc7a",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:d1b7af04124239145bc1904ef0c73501",
+        "GUID:cf019fea781104a7ba57425b8447a4da",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd",
+        "GUID:37c96a4f173824d7d90440f9eee3504d",
+        "GUID:2f475b959fcd44ed19017b9f562f4517"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

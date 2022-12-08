@@ -1,0 +1,16 @@
+{
+    "name": "ILRuntime.ValueBinder",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d1b7af04124239145bc1904ef0c73501"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

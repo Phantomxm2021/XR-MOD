@@ -1,0 +1,20 @@
+{
+    "name": "com.PhantomsXR.MirrorExtension.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:bebd71669af508a4a8129f78934d1858",
+        "GUID:30817c1a0e6d646d99c048fc403f5979",
+        "GUID:72872094b21c16e48b631b2224833d49"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

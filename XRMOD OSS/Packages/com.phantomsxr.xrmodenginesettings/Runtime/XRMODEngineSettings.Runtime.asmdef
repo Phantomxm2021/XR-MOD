@@ -1,0 +1,16 @@
+{
+    "name": "XRMODEngineSettings.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:040e7d3de957a7e49b43185599fa7a17"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

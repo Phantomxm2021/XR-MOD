@@ -1,0 +1,28 @@
+{
+    "name": "HandheldARModule.Runtime.iOS",
+    "rootNamespace": "HandheldARModule.Runtime.Platform.iOS",
+    "references": [
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd",
+        "GUID:63ca8f93359db9342a6a132301e8d238",
+        "GUID:a9420e37d7990b54abdef6688edbe313",
+        "GUID:92703082f92b41ba80f0d6912de66115",
+        "GUID:dfd0ce20189d48e5b22bb4134b558f5a",
+        "GUID:9edf3ad0be3774879b00250c8c354b4c",
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:6a539ac6c932246bd946aa409b684bb2"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "iOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "HANDHELD_ARMODULE_INSTALL"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

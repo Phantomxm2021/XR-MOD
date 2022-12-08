@@ -1,0 +1,191 @@
+namespace ILRuntime.Runtime.Generated
+{
+    public class UnityEngineClrBinding
+    {
+        public static void Binding(Enviorment.AppDomain _app)
+        {
+            UnityEngine_Screen_Binding.Register(_app);
+            UnityEngine_Behaviour_Binding.Register(_app);
+            UnityEngine_GameObject_Binding.Register(_app);
+            UnityEngine_RectTransform_Binding.Register(_app);
+            UnityEngine_Time_Binding.Register(_app);
+            UnityEngine_Physics_Binding.Register(_app);
+            UnityEngine_Mathf_Binding.Register(_app);
+            UnityEngine_Random_Binding.Register(_app);
+            UnityEngine_Quaternion_Binding.Register(_app);
+            UnityEngine_Ray_Binding.Register(_app);
+            UnityEngine_TrailRenderer_Binding.Register(_app);
+            UnityEngine_Events_UnityEvent_Binding.Register(_app);
+            UnityEngine_Object_Binding.Register(_app);
+
+            //EventSystems
+            UnityEngine_EventSystems_EventTrigger_Binding.Register(_app);
+            UnityEngine_EventSystems_PointerEventData_Binding.Register(_app);
+            UnityEngine_EventSystems_EventTrigger_Binding_Entry_Binding.Register(_app);
+            UnityEngine_EventSystems_IDragHandler_Binding.Register(_app);
+            UnityEngine_EventSystems_IBeginDragHandler_Binding.Register(_app);
+            UnityEngine_EventSystems_UIBehaviour_Binding.Register(_app);
+            UnityEngine_EventSystems_IEndDragHandler_Binding.Register(_app);
+            UnityEngine_EventSystems_IPointerClickHandler_Binding.Register(_app);
+            UnityEngine_EventSystems_IPointerDownHandler_Binding.Register(_app);
+            UnityEngine_EventSystems_IPointerUpHandler_Binding.Register(_app);
+
+
+            UnityEngine_AnimatorStateInfo_Binding.Register(_app);
+            UnityEngine_Events_UnityEvent_1_BaseEventData_Binding.Register(_app);
+            UnityEngine_Component_Binding.Register(_app);
+
+            //AI
+            UnityEngine_AI_NavMeshSurface_Binding.Register(_app);
+            UnityEngine_AI_NavMesh_Binding.Register(_app);
+            UnityEngine_AI_NavMeshAgent_Binding.Register(_app);
+
+            UnityEngine_Animator_Binding.Register(_app);
+            UnityEngine_Animation_Binding.Register(_app);
+            UnityEngine_BoxCollider_Binding.Register(_app);
+            UnityEngine_MeshRenderer_Binding.Register(_app);
+            UnityEngine_Material_Binding.Register(_app);
+            UnityEngine_Renderer_Binding.Register(_app);
+            UnityEngine_AudioClip_Binding.Register(_app);
+            UnityEngine_AudioSource_Binding.Register(_app);
+            UnityEngine_Debug_Binding.Register(_app);
+            UnityEngine_Camera_Binding.Register(_app);
+            UnityEngine_Input_Binding.Register(_app);
+            UnityEngine_Touch_Binding.Register(_app);
+            UnityEngine_Transform_Binding.Register(_app);
+            UnityEngine_Rigidbody_Binding.Register(_app);
+            UnityEngine_WaitForSeconds_Binding.Register(_app);
+            UnityEngine_MonoBehaviour_Binding.Register(_app);
+            UnityEngine_Collision_Binding.Register(_app);
+            UnityEngine_Texture_Binding.Register(_app);
+            UnityEngine_Rect_Binding.Register(_app);
+            UnityEngine_Sprite_Binding.Register(_app);
+            UnityEngine_WaitForEndOfFrame_Binding.Register(_app);
+            UnityEngine_Vector3_Binding.Register(_app);
+            UnityEngine_Vector2_Binding.Register(_app);
+            UnityEngine_Texture2D_Binding.Register(_app);
+            UnityEngine_U2D_SpriteAtlas_Binding.Register(_app);
+            UnityEngine_LineRenderer_Binding.Register(_app);
+            UnityEngine_AnimationClip_Binding.Register(_app);
+            UnityEngine_AnimationCurve_Binding.Register(_app);
+            UnityEngine_AnimationEvent_Binding.Register(_app);
+            UnityEngine_ParticleSystem_Binding.Register(_app);
+            UnityEngine_AnimationState_Binding.Register(_app);
+            UnityEngine_Assertions_Assert_Binding.Register(_app);
+            UnityEngine_TextAsset_Binding.Register(_app);
+            UnityEngine_SkinnedMeshRenderer_Binding.Register(_app);
+            UnityEngine_RaycastHit_Binding.Register(_app);
+            UnityEngine_Collider_Binding.Register(_app);
+            UnityEngine_Shader_Binding.Register(_app);
+            UnityEngine_AI_NavMeshHit_Binding.Register(_app);
+            UnityEngine_Application_Binding.Register(_app);
+            //UnityEngine_DynamicGI_Binding.Register(_app);
+            //UnityEngine_RenderSettings_Binding.Register(_app);
+            UnityEngine_LocationService_Binding.Register(_app);
+            UnityEngine_LocationInfo_Binding.Register(_app);
+            UnityEngine_Gyroscope_Binding.Register(_app);
+            UnityEngine_Handheld_Binding.Register(_app);
+            UnityEngine_LayerMask_Binding.Register(_app);
+
+            //Networking
+            UnityEngine_Networking_DownloadHandlerBuffer_Binding.Register(_app);
+            UnityEngine_Networking_DownloadHandlerScript_Binding.Register(_app);
+            UnityEngine_Networking_DownloadHandlerAudioClip_Binding.Register(_app);
+            UnityEngine_Networking_DownloadHandlerAssetBundle_Binding.Register(_app);
+            UnityEngine_Networking_UploadHandlerFile_Binding.Register(_app);
+            UnityEngine_Networking_UploadHandler_Binding.Register(_app);
+            UnityEngine_Networking_UploadHandlerRaw_Binding.Register(_app);
+            UnityEngine_Networking_MultipartFormFileSection_Binding.Register(_app);
+            UnityEngine_Networking_MultipartFormDataSection_Binding.Register(_app);
+            UnityEngine_Networking_UnityWebRequestMultimedia_Binding.Register(_app);
+            UnityEngine_Networking_UnityWebRequestTexture_Binding.Register(_app);
+            UnityEngine_Networking_DownloadHandlerTexture_Binding.Register(_app);
+            UnityEngine_Networking_DownloadHandler_Binding.Register(_app);
+            UnityEngine_Networking_UnityWebRequest_Binding.Register(_app);
+            UnityEngine_WWWForm_Binding.Register(_app);
+
+
+            //URP
+            UniversalAdditionalCameraData_Binding.Register(_app);
+            UniversalAdditionalLightData_Binding.Register(_app);
+            Universal_CameraExtensions_Binding.Register(_app);
+            //UI
+            UnityEngine_Canvas_Binding.Register(_app);
+            UnityEngine_UI_GraphicRaycaster_Binding.Register(_app);
+            UnityEngine_UI_ScrollRect_Binding.Register(_app);
+            UnityEngine_CanvasGroup_Binding.Register(_app);
+            UnityEngine_UI_Selectable_Binding.Register(_app);
+            UnityEngine_UI_Button_Binding.Register(_app);
+            UnityEngine_UI_Graphic_Binding.Register(_app);
+            UnityEngine_UI_MaskableGraphic_Binding.Register(_app);
+            UnityEngine_UI_Image_Binding.Register(_app);
+            UnityEngine_UI_RawImage_Binding.Register(_app);
+            UnityEngine_UI_Slider_Binding.Register(_app);
+            UnityEngine_UI_Text_Binding.Register(_app);
+            UnityEngine_UI_Toggle_Binding.Register(_app);
+            UnityEngine_UI_ToggleGroup_Binding.Register(_app);
+            UnityEngine_UI_Scrollbar_Binding.Register(_app);
+            UnityEngine_UI_GridLayoutGroup_Binding.Register(_app);
+            UnityEngine_UI_HorizontalLayoutGroup_Binding.Register(_app);
+            UnityEngine_UI_InputField_Binding.Register(_app);
+            UnityEngine_UI_VerticalLayoutGroup_Binding.Register(_app);
+            UnityEngine_UI_LayoutElement_Binding.Register(_app);
+            TMPro_TextMeshProUGUI_Binding.Register(_app);
+            TMPro_TMP_InputField_Binding.Register(_app);
+            TMPro_TMP_Dropdown_Binding.Register(_app);
+            TMPro_TMP_Text_Binding.Register(_app);
+
+            //Others
+            UnityEngine_ColorUtility_Binding.Register(_app);
+            //UnityEngine_LightProbes_Binding.Register(_app);
+            UnityEngine_Mesh_Binding.Register(_app);
+            UnityEngine_MeshFilter_Binding.Register(_app);
+
+            //XRInteractor
+            ARRotationInteractable_Binding.Register(_app);
+            ARTranslationInteractable_Binding.Register(_app);
+            ARScaleInteractable_Binding.Register(_app);
+            ARSelectionInteractable_Binding.Register(_app);
+            XRTintInteractableVisual_Binding.Register(_app);
+            XRSocketInteractor_Binding.Register(_app);
+            XRRayInteractor_Binding.Register(_app);
+            XRInteractorReticleVisual_Binding.Register(_app);
+            XRInteractorLineVisual_Binding.Register(_app);
+            XRInteractionManager_Binding.Register(_app);
+            XRGrabInteractable_Binding.Register(_app);
+            XRDirectInteractor_Binding.Register(_app);
+            XRControllerRecorder_Binding.Register(_app);
+            XRControllerRecording_Binding.Register(_app);
+            XRController_Binding.Register(_app);
+            XRBaseTargetFilter_Binding.Register(_app);
+            XRBaseInteractor_Binding.Register(_app);
+            XRBaseInteractable_Binding.Register(_app);
+            XRBaseControllerInteractor_Binding.Register(_app);
+            XRBaseController_Binding.Register(_app);
+            TeleportingEvent_Binding.Register(_app);
+            TeleportationProvider_Binding.Register(_app);
+            TeleportationArea_Binding.Register(_app);
+            TeleportationAnchor_Binding.Register(_app);
+            LocomotionSystem_Binding.Register(_app);
+            LocomotionProvider_Binding.Register(_app);
+            InputDevices_Binding.Register(_app);
+            InputHelpers_Binding.Register(_app);
+            DeviceBasedContinuousMoveProvider_Binding.Register(_app);
+            DeviceBasedContinuousTurnProvider_Binding.Register(_app);
+            DeviceBasedSnapTurnProvider_Binding.Register(_app);
+            ActionBasedSnapTurnProvider_Binding.Register(_app);
+            ActionBasedContinuousMoveProvider_Binding.Register(_app);
+            ActionBasedContinuousTurnProvider_Binding.Register(_app);
+            BaseTeleportationInteractable_Binding.Register(_app);
+            CharacterControllerDriver_Binding.Register(_app);
+            CommonUsages_Binding.Register(_app);
+            TwoHandedGrabMoveProvider_Binding.Register(_app);
+            TunnelingVignetteController_Binding.Register(_app);
+            
+            UnityEngine_ComputeShader_Binding.Register(_app);
+            // Unity_Barracuda_Model_Binding.Register(_app);
+            // Unity_Barracuda_Tensor_Binding.Register(_app);
+            // Unity_Barracuda_IWorker_Binding.Register(_app);
+        }
+    }
+}

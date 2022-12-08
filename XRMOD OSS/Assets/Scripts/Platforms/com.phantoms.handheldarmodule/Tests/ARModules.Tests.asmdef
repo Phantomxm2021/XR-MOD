@@ -1,0 +1,28 @@
+{
+    "name": "ARModules.Tests",
+    "rootNamespace": "ARModules.Tests",
+    "references": [
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd",
+        "GUID:a9420e37d7990b54abdef6688edbe313",
+        "GUID:92703082f92b41ba80f0d6912de66115",
+        "GUID:dc960734dc080426fa6612f1c5fe95f3",
+        "GUID:63ca8f93359db9342a6a132301e8d238",
+        "GUID:9edf3ad0be3774879b00250c8c354b4c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "HANDHELD_ARMODULE_INSTALL"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

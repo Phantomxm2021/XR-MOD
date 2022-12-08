@@ -1,0 +1,27 @@
+{
+    "name": "ILRuntime.Runtime.CLRBingding.CLR.UnityEngine",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8c4dd21966739024fbd72155091d199e",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:5c2b5ba89f9e74e418232e154bc5cc7a",
+        "GUID:fb044e467877d42df875ffad27576788",
+        "GUID:d1b7af04124239145bc1904ef0c73501",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:dc960734dc080426fa6612f1c5fe95f3",
+        "GUID:28c5e819ece8a0746abb16dc5aa91f44",
+        "GUID:ba171b3dd2a51234ab864770f99741a5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

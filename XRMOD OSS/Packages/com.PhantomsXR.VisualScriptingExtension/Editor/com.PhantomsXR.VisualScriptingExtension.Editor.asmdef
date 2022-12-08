@@ -1,0 +1,31 @@
+{
+    "name": "com.PhantomsXR.VisualScriptingExtension.Editor",
+    "rootNamespace": "com.PhantomsXR.VisualScriptingExtension.Editor",
+    "references": [
+        "GUID:ead91481808984f4b8e1e1ee47529c9a",
+        "GUID:8e4b22805b128544c875816e5bb32c91",
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:bebd71669af508a4a8129f78934d1858",
+        "GUID:30817c1a0e6d646d99c048fc403f5979",
+        "GUID:21b0c8d1703a94250bfac916590cea4f",
+        "GUID:54cb1906aeb4e4264bc1d2aa3818a43f",
+        "GUID:ea715009a4efd4c6cbc85be3ae097dd3",
+        "GUID:23f3c6063e13e4fd9addce3606ff4e42",
+        "GUID:8461334e883c84d819a008a46143a5ad",
+        "GUID:f10496e9d78b943308af5e7e9e4543c8",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:5c2b5ba89f9e74e418232e154bc5cc7a",
+        "GUID:b1fddbb46bf618148a0b0a41fbe9f4ea"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

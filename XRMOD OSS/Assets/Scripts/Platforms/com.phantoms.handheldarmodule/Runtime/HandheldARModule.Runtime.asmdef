@@ -1,0 +1,48 @@
+{
+    "name": "HandheldARModule.Runtime",
+    "rootNamespace": "HandheldARModule.Runtime",
+    "references": [
+        "GUID:92703082f92b41ba80f0d6912de66115",
+        "GUID:a9420e37d7990b54abdef6688edbe313",
+        "GUID:e40ba710768534012815d3193fa296cb",
+        "GUID:dfd0ce20189d48e5b22bb4134b558f5a",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:b9506b116f49944d0a10fd66d7ee4b93",
+        "GUID:4c71413ee1b4844459f659a46bf3361c",
+        "GUID:f472ae737a280fe4cbdf5b14dbbf9fcc",
+        "GUID:9edf3ad0be3774879b00250c8c354b4c",
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd",
+        "GUID:4bfc083d294004a148c718a2546895c0",
+        "GUID:dc960734dc080426fa6612f1c5fe95f3",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:37c96a4f173824d7d90440f9eee3504d"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "HANDHELD_ARMODULE_INSTALL"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "[4,4.2.3]",
+            "define": "ARFOUNDATION_4_0_0"
+        },
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "5.0.0-pre.1",
+            "define": "ARFOUNDATION_5_0_0"
+        }
+    ],
+    "noEngineReferences": false
+}

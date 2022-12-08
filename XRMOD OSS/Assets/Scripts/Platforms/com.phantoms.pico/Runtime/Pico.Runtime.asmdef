@@ -1,0 +1,30 @@
+{
+    "name": "Pico.Runtime",
+    "rootNamespace": "Pico.Runtime",
+    "references": [
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd",
+        "GUID:9edf3ad0be3774879b00250c8c354b4c",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:4bfc083d294004a148c718a2546895c0",
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:c2dc081af70114ec2a34f352537bd6c0",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:65a004a26c89ac5468e8d4b4b057f1c8",
+        "GUID:2f475b959fcd44ed19017b9f562f4517"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "PICO_INSTALL"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

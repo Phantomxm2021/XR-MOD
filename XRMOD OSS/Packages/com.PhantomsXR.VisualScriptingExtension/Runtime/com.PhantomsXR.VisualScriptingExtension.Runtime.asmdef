@@ -1,0 +1,27 @@
+{
+    "name": "com.PhantomsXR.VisualScriptingExtension.Runtime",
+    "rootNamespace": "com.PhantomsXR.VisualScriptingExtension.Runtime",
+    "references": [
+        "GUID:8e4b22805b128544c875816e5bb32c91",
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:bebd71669af508a4a8129f78934d1858",
+        "GUID:b9506b116f49944d0a10fd66d7ee4b93",
+        "GUID:30817c1a0e6d646d99c048fc403f5979",
+        "GUID:21b0c8d1703a94250bfac916590cea4f",
+        "GUID:ea715009a4efd4c6cbc85be3ae097dd3",
+        "GUID:315d634a9ac6d460a9515f5a56be6311",
+        "GUID:72872094b21c16e48b631b2224833d49",
+        "GUID:5c2b5ba89f9e74e418232e154bc5cc7a",
+        "GUID:67c68cde47b78440ca353be6f999c450",
+        "GUID:b1fddbb46bf618148a0b0a41fbe9f4ea"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

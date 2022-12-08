@@ -1,0 +1,21 @@
+{
+    "name": "ILRuntime.Adapter.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fb044e467877d42df875ffad27576788",
+        "GUID:d1b7af04124239145bc1904ef0c73501",
+        "GUID:30817c1a0e6d646d99c048fc403f5979",
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

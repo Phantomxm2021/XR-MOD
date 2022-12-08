@@ -1,0 +1,17 @@
+{
+  "name": "com.phantomsxr.mirrorextension",
+  "version": "2.0.0-preview.1",
+  "displayName": "XRMOD Mirror Wrapper",
+  "unity": "2020.3",
+  "keywords": [
+    "Mirror",
+    "Multiplayer"
+  ],
+  "author": {
+    "name": "Phantoms",
+    "email": "phantomxm2021@gmail.com"
+  },
+  "description": "ARMOD Mirror Extension as its name is a further expansion of Mirror. \n It can easily help our AR experience to achieve multi-person synchronization.",
+  "license": "Apache License",
+  "type": "library"
+}

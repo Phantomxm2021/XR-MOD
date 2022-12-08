@@ -1,0 +1,21 @@
+{
+    "name": "Web3D.Runtime",
+    "rootNamespace": "Web3D.Runtime",
+    "references": [
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd",
+        "GUID:4bfc083d294004a148c718a2546895c0",
+        "GUID:d445613d091ffc941ae68355f01656f6"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WebGL"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.phantomsxr.armodpackagetools/Editor/Core/UAssets/NewProjectWizard.uss?fileID=7433441132597879392&amp;guid=22511a66ea9fb4335a860f8e634a81f0&amp;type=3#NewProjectWizard" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="templates" style="flex-grow: 1; width: 60%; background-color: rgb(56, 56, 56); border-right-width: 1px; border-right-color: rgb(89, 89, 89);">
+            <ui:VisualElement style="flex-direction: row; justify-content: flex-start; align-items: center;">
+                <ui:Label text="TEMPLATES" display-tooltip-when-elided="true" name="template-title" class="title-h1" style="border-right-width: 1px; width: 50%;" />
+            </ui:VisualElement>
+            <ui:ListView focusable="false" name="template-scroolview" show-alternating-row-backgrounds="ContentOnly" show-border="false" item-height="110" fixed-item-height="110" horizontal-scrolling="false" show-bound-collection-size="false" style="flex-grow: 1; align-items: center; justify-content: center; flex-direction: row;" />
+            <ui:VisualElement />
+        </ui:VisualElement>
+        <ui:VisualElement name="settings" class="title-padding" style="flex-grow: 1; width: 40%;">
+            <ui:Label text="Settings" display-tooltip-when-elided="true" name="settings" class="title-h1" />
+            <ui:VisualElement style="border-top-color: rgb(0, 0, 0); border-top-width: 0;">
+                <ui:VisualElement name="project-area" style="padding-bottom: 0; margin-bottom: 20px; margin-top: 10px;">
+                    <ui:Label text="Project Name*" display-tooltip-when-elided="true" name="project-name-title" class="setting-view-padding title-small" style="font-size: 12px; -unity-font-style: normal; margin-bottom: 2px;" />
+                    <ui:TextField picking-mode="Ignore" name="project-inputer" class="padding" style="background-color: rgba(0, 0, 0, 0); border-bottom-width: 2px; flex-shrink: 1; flex-grow: 1;" />
+                    <ui:VisualElement name="prompt" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(35, 35, 35); border-right-color: rgb(35, 35, 35); border-top-color: rgb(35, 35, 35); border-bottom-color: rgb(35, 35, 35); padding-left: 2px; margin-left: 10px; margin-right: 5px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;">
+                        <ui:Label text="Project name is not allowed to use numbers and symbol, must start with A-Z characters." display-tooltip-when-elided="true" name="prompt_label" style="flex-wrap: wrap; flex-shrink: 1; flex-grow: 1; flex-direction: row; white-space: normal; -unity-text-align: upper-left; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px; color: rgb(168, 168, 168); font-size: 9px; background-color: rgb(64, 64, 64);" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="location-area" style="margin-bottom: 0; margin-top: 10px;">
+                    <ui:Label text="Location*" display-tooltip-when-elided="true" name="project-location-title" class="setting-view-padding title-small" style="font-size: 12px; -unity-font-style: normal; margin-bottom: 2px;" />
+                    <ui:VisualElement name="location-inputer" style="flex-direction: row;">
+                        <ui:Label display-tooltip-when-elided="true" name="path-label" class="padding" style="border-bottom-width: 2px; border-bottom-color: rgb(89, 89, 89); border-left-width: 0; border-top-left-radius: 0; -unity-slice-left: 0; margin-left: 12px; width: auto; flex-shrink: 1; flex-grow: 1; white-space: nowrap; overflow: hidden;" />
+                        <ui:Button text="···" display-tooltip-when-elided="true" name="select-path-button" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="docker" style="flex-grow: 0; height: 10%; flex-direction: row-reverse; border-top-width: 1px; border-top-color: rgb(96, 96, 96); align-items: center;">
+        <ui:VisualElement style="flex-direction: row; flex-grow: 0; margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; flex-shrink: 0; width: auto; justify-content: center; align-items: center;">
+            <uie:ToolbarButton text="CANCEL" display-tooltip-when-elided="true" name="cancel-button" style="flex-grow: 1; -unity-text-align: middle-center; margin-right: 0; border-left-width: 0.5px; border-right-width: 0.5px; border-top-width: 0.5px; border-bottom-width: 0.5px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; width: 45%; height: 20px; -unity-font-style: bold; white-space: nowrap;" />
+            <uie:ToolbarSpacer />
+            <uie:ToolbarButton text="CREATE" display-tooltip-when-elided="true" name="create-button" style="flex-grow: 1; -unity-text-align: middle-center; margin-left: 5px; border-left-width: 0.5px; border-right-width: 0.5px; border-top-width: 0.5px; border-bottom-width: 0.5px; width: 45%; height: 20px; -unity-font-style: bold; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px;" />
+            <uie:ToolbarSpacer />
+        </ui:VisualElement>
+        <uie:ToolbarSpacer style="width: 10px; flex-grow: 1;" />
+        <ui:Button display-tooltip-when-elided="true" name="refetch" text="Project names are not allowed to use numbers, and punctuation marks must start with A-Z characters." class="refresh-btn" style="flex-shrink: 0; flex-grow: 0; margin-left: 5px; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

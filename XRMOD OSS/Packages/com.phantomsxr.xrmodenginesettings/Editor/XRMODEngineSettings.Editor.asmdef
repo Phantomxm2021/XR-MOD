@@ -1,0 +1,22 @@
+{
+    "name": "XRMODEngineSettings.Editor",
+    "rootNamespace": "XRMODEngineSettings.Editor",
+    "references": [
+        "GUID:f9fe0089ec81f4079af78eb2287a6163",
+        "GUID:e40ba710768534012815d3193fa296cb",
+        "GUID:7910d4af31b741acb1bce1140634a975",
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd",
+        "GUID:040e7d3de957a7e49b43185599fa7a17"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Mirror",
+    "rootNamespace": "",
+    "references": [
+        "Mirror.CompilerSymbols",
+        "Telepathy",
+        "kcp2k",
+        "com.Phantoms.ActionNotification.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

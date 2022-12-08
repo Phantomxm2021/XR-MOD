@@ -1,0 +1,22 @@
+{
+  "name": "com.phantomsxr.armodapi",
+  "version": "2.0.0-preview.3",
+  "displayName": "XRMOD Open API",
+  "type": "library",
+  "unity": "2020.3",
+  "keywords": [
+    "ARMOD",
+    "API"
+  ],
+  "dependencies": {
+    "com.phantomsxr.armodpackagetools": "1.2.0",
+    "com.phantomsxr.actionnotification": "2.0.0-preview.3",
+    "com.unity.render-pipelines.universal": "12.1.7"
+  },
+  "author": {
+    "name": "Phantoms",
+    "email": "phantomxm2021@gmail.com"
+  },
+  "description": "AR-MOD API is an indispensable code script interface in the AR-MOD framework.\nIt allows us to write complex scripts to produce our AR creative interactive content.\nThe content developed by this API is common to all applications that use AR-MOD.",
+  "license": "Apache License"
+}

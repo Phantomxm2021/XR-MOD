@@ -1,0 +1,25 @@
+{
+    "name": "HandheldARModule.Runtime.Android",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:a9420e37d7990b54abdef6688edbe313",
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd",
+        "GUID:92703082f92b41ba80f0d6912de66115",
+        "GUID:63ca8f93359db9342a6a132301e8d238"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "HANDHELD_ARMODULE_INSTALL"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,41 @@
+{
+    "name": "com.Phantoms.ILRuntime.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d1b7af04124239145bc1904ef0c73501",
+        "GUID:040e7d3de957a7e49b43185599fa7a17",
+        "GUID:8e4b22805b128544c875816e5bb32c91",
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:63ca8f93359db9342a6a132301e8d238",
+        "GUID:e283c9e6b5dc149e9906ee600cd2b2a2",
+        "GUID:fb044e467877d42df875ffad27576788",
+        "GUID:f8c1459ac3785474b92feffdf4f8681f",
+        "GUID:1abc56b6813d04ac2880ba0689512a20",
+        "GUID:f472ae737a280fe4cbdf5b14dbbf9fcc",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:bebd71669af508a4a8129f78934d1858",
+        "GUID:30817c1a0e6d646d99c048fc403f5979",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:5c2b5ba89f9e74e418232e154bc5cc7a",
+        "GUID:67c68cde47b78440ca353be6f999c450",
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd",
+        "GUID:cf019fea781104a7ba57425b8447a4da",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:b98de7ff63394bdca25fc3bdddff73bf",
+        "GUID:1da3e0075f2bc4116a2fd3946dfee8ec",
+        "GUID:65a004a26c89ac5468e8d4b4b057f1c8",
+        "GUID:2f475b959fcd44ed19017b9f562f4517"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

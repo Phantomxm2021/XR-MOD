@@ -1,0 +1,21 @@
+{
+    "name": "ILRuntime.Runtime.CodeHook.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1abc56b6813d04ac2880ba0689512a20",
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd",
+        "GUID:dd627f6df15534446a8b4d06070ee0cb"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,22 @@
+.horizontal-button {
+    width: 33%;
+    margin-top: 10px;
+}
+
+.toolbar-button-item {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbar-label-item {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+
+.full-vertical-view {
+    height: 100%;
+}

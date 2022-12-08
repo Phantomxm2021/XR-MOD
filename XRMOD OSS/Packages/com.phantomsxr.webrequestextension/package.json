@@ -1,0 +1,15 @@
+{
+  "displayName": "XRMOD WebRequest Wrapper",
+  "name": "com.phantomsxr.webrequestextension",
+  "version": "2.0.0",
+  "unity": "2020.3",
+  "description": "WebRequest Extension is used to extend Unity'sbuilt-in WebRequest to support asynchronous requests (Async/Await/progress).",
+  "keywords": [],
+  "category": "Libraries",
+  "author": {
+    "name": "Phantoms",
+    "email": "phantomxm2021@gmail.com"
+  },
+  "type": "tool",
+  "license": "Apache License"
+}

@@ -1,0 +1,22 @@
+{
+    "name": "ProjectHelper.Editor",
+    "rootNamespace": "ProjectHelper.Editor",
+    "references": [
+        "GUID:040e7d3de957a7e49b43185599fa7a17",
+        "GUID:f9fe0089ec81f4079af78eb2287a6163",
+        "GUID:e40ba710768534012815d3193fa296cb",
+        "GUID:22526feda79a34494b7dd6866866e73a",
+        "GUID:2ba2b77e6bc934cf7b8259f0f10edbbd"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

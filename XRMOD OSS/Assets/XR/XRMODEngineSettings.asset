@@ -1,0 +1,887 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5694662919049202296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: WebVRUnityStandalone
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - WEB_VR_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &-5157817021443002914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: Hololens2UnityStandalone
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - HOLOLENS_2_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &-4092354421497564985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: Quest2UnityStandalone
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - QUEST_2_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &-2888129540000213720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: WebARNativeLibrary
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - WEB_AR_INSTALL
+  - ENABLE_NATIVE
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &-1512239931914854189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: HandheldARUnityStandalone_Android
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 2557903794090995427, guid: 2c29b4e7588a04c9b9f9887069b58357, type: 3}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - ENABLE_IMMERSAL
+  - HANDHELD_ARMODULE_INSTALL
+  - ARCORE_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &-986062913129467924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: PicoNativeLibrary
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - PICO_INSTALL
+  - ENABLE_NATIVE
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21382c4c41b344d7a5323ce4c75e9151, type: 3}
+  m_Name: XRMODEngineSettings
+  m_EditorClassIdentifier: 
+  SDKInformation: {fileID: 11400000, guid: a0b0af16e514a4253bedc90f54ee2913, type: 2}
+  PlatformSettingValue:
+  - {fileID: 6275511464550800515}
+  - {fileID: 8201703323344925129}
+  - {fileID: 6204192560169122956}
+  - {fileID: 8504026218591118235}
+  - {fileID: -1512239931914854189}
+  - {fileID: 6379903920945554076}
+  - {fileID: 6672234728912623054}
+  - {fileID: -5157817021443002914}
+  - {fileID: -986062913129467924}
+  - {fileID: 5428244312264026854}
+  - {fileID: 7269026665943786672}
+  - {fileID: -4092354421497564985}
+  - {fileID: -2888129540000213720}
+  - {fileID: 1293910683341712644}
+  - {fileID: 1248262269044534218}
+  - {fileID: -5694662919049202296}
+  - {fileID: 1289002372185332658}
+  - {fileID: 7635714444655652342}
+  - {fileID: 3810342560455830009}
+  - {fileID: 2939972518949974736}
+  RuntimePlatformKey:
+  - AppleGlassNativeLibrary
+  - AppleGlassUnityStandalone
+  - HandheldARNativeLibrary_Android
+  - HandheldARNativeLibrary_iOS
+  - HandheldARUnityStandalone_Android
+  - HandheldARUnityStandalone_iOS
+  - Hololens2NativeLibrary
+  - Hololens2UnityStandalone
+  - PicoNativeLibrary
+  - PicoUnityStandalone
+  - Quest2NativeLibrary
+  - Quest2UnityStandalone
+  - WebARNativeLibrary
+  - WebARUnityStandalone
+  - WebVRNativeLibrary
+  - WebVRUnityStandalone
+  - Classic3DNativeLibrary
+  - Classic3DUnityStandalone
+  - Web3DNativeLibrary
+  - Web3DUnityStandalone
+  Simulation: 0
+--- !u!114 &1248262269044534218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: WebVRNativeLibrary
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - WEB_VR_INSTALL
+  - ENABLE_NATIVE
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &1289002372185332658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: Classic3DNativeLibrary
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - CLASSIC_3D_INSTALL
+  - ENABLE_NATIVE
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &1293910683341712644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: WebARUnityStandalone
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - WEB_AR_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &2939972518949974736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: Web3DUnityStandalone
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - WEB_3D_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &3810342560455830009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: Web3DNativeLibrary
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - WEB_3D_INSTALL
+  - ENABLE_NATIVE
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &5428244312264026854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: PicoUnityStandalone
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - PICO_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &6204192560169122956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: HandheldARNativeLibrary_Android
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - ENABLE_IMMERSAL
+  - ENABLE_NATIVE
+  - HANDHELD_ARMODULE_INSTALL
+  - ARCORE_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &6275511464550800515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: AppleGlassNativeLibrary
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - UNITY_XR_ARKIT_FACE_TRACKING_ENABLED
+  - ENABLE_IMMERSAL
+  - ENABLE_NATIVE
+  - UNITY_XR_ARKIT_LOADER_ENABLED
+  - APPLE_GLASS_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &6379903920945554076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: HandheldARUnityStandalone_iOS
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 2557903794090995427, guid: 2c29b4e7588a04c9b9f9887069b58357, type: 3}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - UNITY_XR_ARKIT_FACE_TRACKING_ENABLED
+  - ENABLE_IMMERSAL
+  - ARKIT_INSTALL
+  - UNITY_XR_ARKIT_LOADER_ENABLED
+  - HANDHELD_ARMODULE_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &6672234728912623054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: Hololens2NativeLibrary
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - HOLOLENS_2_INSTALL
+  - ENABLE_NATIVE
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &7269026665943786672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: Quest2NativeLibrary
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - QUEST_2_INSTALL
+  - ENABLE_NATIVE
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &7635714444655652342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: Classic3DUnityStandalone
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - CLASSIC_3D_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &8201703323344925129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: AppleGlassUnityStandalone
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - UNITY_XR_ARKIT_FACE_TRACKING_ENABLED
+  - ENABLE_IMMERSAL
+  - ENABLE_NATIVE
+  - UNITY_XR_ARKIT_LOADER_ENABLED
+  - APPLE_GLASS_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER
+--- !u!114 &8504026218591118235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93c5a650b364ecfb8a278bc8b51d537, type: 3}
+  m_Name: HandheldARNativeLibrary_iOS
+  m_EditorClassIdentifier: 
+  LaunchPrefab: {fileID: 0}
+  Version: {x: 2, y: 0, z: 0}
+  ScriptingDefineSymbols:
+  - UNITY_XR_ARKIT_FACE_TRACKING_ENABLED
+  - ENABLE_IMMERSAL
+  - ENABLE_NATIVE
+  - ARKIT_INSTALL
+  - UNITY_XR_ARKIT_LOADER_ENABLED
+  - HANDHELD_ARMODULE_INSTALL
+  - MIRROR
+  - MIRROR_17_0_OR_NEWER
+  - MIRROR_18_0_OR_NEWER
+  - MIRROR_24_0_OR_NEWER
+  - MIRROR_26_0_OR_NEWER
+  - MIRROR_27_0_OR_NEWER
+  - MIRROR_28_0_OR_NEWER
+  - MIRROR_29_0_OR_NEWER
+  - MIRROR_30_0_OR_NEWER
+  - MIRROR_30_5_2_OR_NEWER
+  - MIRROR_32_1_2_OR_NEWER
+  - MIRROR_32_1_4_OR_NEWER
+  - MIRROR_35_0_OR_NEWER
+  - MIRROR_35_1_OR_NEWER
+  - MIRROR_37_0_OR_NEWER
+  - MIRROR_38_0_OR_NEWER
+  - MIRROR_39_0_OR_NEWER
+  - MIRROR_40_0_OR_NEWER
+  - MIRROR_41_0_OR_NEWER
+  - MIRROR_42_0_OR_NEWER
+  - MIRROR_43_0_OR_NEWER
+  - MIRROR_44_0_OR_NEWER
+  - MIRROR_46_0_OR_NEWER
+  - MIRROR_47_0_OR_NEWER

@@ -1,0 +1,22 @@
+{
+  "name": "com.phantomsxr.actionnotification",
+  "version": "2.0.0-preview.3",
+  "displayName": "XRMOD Action Notification",
+  "unity": "2021.3",
+  "keywords": [
+    "build",
+    "bundle",
+    "bundles",
+    "assetbundles",
+    "cache",
+    "server",
+    "artoolkit"
+  ],
+  "author": {
+    "name": "Phantoms",
+    "email": "phantomxm2021@gmail.com"
+  },
+  "type": "library",
+  "description": "The action notification manager is a function in the ARMOD framework, which is used to provide messages and Actions execution in all modules. Corresponding modules will not depend on each other, only need to issue the corresponding Action-ID to execute.",
+  "license": "Apache License"
+}
